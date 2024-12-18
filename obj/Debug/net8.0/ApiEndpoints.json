@@ -1,0 +1,91 @@
+[
+  {
+    "ContainingType": "MovieAPI.Controllers.CinemaController",
+    "Method": "AddAllCinema",
+    "RelativePath": "api/Cinema/AddAllCinema",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "addAllCinemaDto",
+        "Type": "AddAllCinemaDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MovieAPI.Controllers.CinemaController",
+    "Method": "GetAllCinema",
+    "RelativePath": "api/Cinema/GetAllCinema",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MovieAPI.Controllers.CinemaController",
+    "Method": "UpdateCinema",
+    "RelativePath": "api/Cinema/UpdateCinema",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "addAllCinemaDto",
+        "Type": "AddAllCinemaDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MovieAPI.Controllers.MovieController",
+    "Method": "AddAllMovie",
+    "RelativePath": "api/Movie/AddMovie",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "addAllMovieDto",
+        "Type": "AddAllMovieDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MovieAPI.Controllers.MovieController",
+    "Method": "GetAllMovie",
+    "RelativePath": "api/Movie/GetAllMovie",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MovieAPI.Controllers.MovieController",
+    "Method": "GetMovieById",
+    "RelativePath": "api/Movie/GetMovieById",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
